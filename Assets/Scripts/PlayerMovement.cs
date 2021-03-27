@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public CharacterController2D controller;
+    [SerializeField] private CharacterController2D controller;
     private Rigidbody2D rb;
-    public Animator animator;
+    [SerializeField] private Animator animator;
 
-    public float runSpeed = 40f;
-    public float ladderSpeed = 20f;
-    public float distance;
-    public LayerMask whatIsLadder;
-    private bool isClimbing;
+    [SerializeField] private float runSpeed = 40f;
+    [SerializeField] private float ladderSpeed = 20f;
+    [SerializeField] private float distance;
+    [SerializeField] private LayerMask whatIsLadder;
+    [SerializeField] private bool isClimbing;
 
     float horizontalMove = 0f;
     float verticalMove = 0f;
     bool jump = false;
-    
+
+    [SerializeField] int _lives = 3;
+    [SerializeField] private UIManagerUwU _uiManager;
 
     void Start()
     {
@@ -74,6 +76,18 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.gravityScale = 3;
+        }
+    }
+
+    public void Damage()
+    {
+        _lives--;
+
+        _uiManager.UpdateLives(_lives);
+
+        if (_lives < 1)
+        {
+            Destroy(this.gameObject);
         }
     }
 }
