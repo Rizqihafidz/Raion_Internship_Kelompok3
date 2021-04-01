@@ -54,29 +54,7 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
 
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, whatIsLadder);
-
-        if (hitInfo.collider != null)
-        {
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                isClimbing = true;
-            }
-            else
-            {
-                isClimbing = false;
-            }
-        }
-        if (isClimbing == true)
-        {
-            verticalMove = Input.GetAxisRaw("Vertical");
-            rb.velocity = new Vector2(rb.position.x, verticalMove * ladderSpeed);
-            rb.gravityScale = 0;
-        }
-        else
-        {
-            rb.gravityScale = 3;
-        }
+        
     }
 
     public void Damage()
