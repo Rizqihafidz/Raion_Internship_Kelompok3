@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, whatIsLadder);
 
-        if(hitInfo.collider != null)
+        if (hitInfo.collider != null)
         {
             if (Input.GetKeyDown(KeyCode.W))
             {
@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
                 isClimbing = false;
             }
         }
-        if(isClimbing == true)
+        if (isClimbing == true)
         {
             verticalMove = Input.GetAxisRaw("Vertical");
             rb.velocity = new Vector2(rb.position.x, verticalMove * ladderSpeed);
