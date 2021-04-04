@@ -19,11 +19,12 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
 
     [SerializeField] int _lives = 3;
-    [SerializeField] private UIManagerUwU _uiManager;
+    private UIManagerUwU _uiManager;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        _uiManager = GameObject.Find("Canvas2").GetComponent<UIManagerUwU>();
     }
 
     // Update is called once per frame
@@ -66,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
         if (_lives < 1)
         {
             Destroy(this.gameObject);
+            //gameMaster.restart();
         }
     }
 }
