@@ -13,7 +13,7 @@ public class GameMaster : MonoBehaviour
     void Update()
     {
         // testing
-        if (Input.GetButtonDown("Fire2"))
+        if (GameObject.FindGameObjectsWithTag("Player") == null)
         {
             Restart();
         }

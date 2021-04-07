@@ -9,6 +9,7 @@ public class Enemi : MonoBehaviour
     [SerializeField]
     private PlayerMovement _player;
     public bool _moveRight = true;
+    public int health = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,21 @@ public class Enemi : MonoBehaviour
         {
             transform.Translate(Vector2.left * _speed * Time.deltaTime);
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if(health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(this.gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

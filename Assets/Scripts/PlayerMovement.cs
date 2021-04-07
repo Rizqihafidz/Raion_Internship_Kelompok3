@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float distance;
     [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private bool isClimbing;
+    [SerializeField] private GameMaster gm;
 
     float horizontalMove = 0f;
     float verticalMove = 0f;
@@ -25,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         _uiManager = GameObject.Find("Canvas2").GetComponent<UIManagerUwU>();
+        gm = GetComponent<GameMaster>();
     }
 
     // Update is called once per frame
@@ -42,6 +45,12 @@ public class PlayerMovement : MonoBehaviour
 
        
     }
+
+    public int getLives()
+    {
+        return _lives;
+    }
+
 
     public void OnLanding()
     {
@@ -66,8 +75,22 @@ public class PlayerMovement : MonoBehaviour
 
         if (_lives < 1)
         {
-            Destroy(this.gameObject);
-            //gameMaster.restart();
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+    }
+
+    public void Heal()
+    {
+        if (_lives == 3)
+        {
+            _lives = _lives;
+        }
+        else
+        {
+            _lives += 1;
+        }
+
+        _uiManager.UpdateLives(_lives);
     }
 }

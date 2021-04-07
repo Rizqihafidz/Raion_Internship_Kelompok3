@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6533473180829493982}
   - component: {fileID: 4724361906757933833}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyTurn
   m_TagString: Turn
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
