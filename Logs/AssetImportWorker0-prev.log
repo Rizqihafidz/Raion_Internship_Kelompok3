@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16166 MB
+OS: 'Windows 10 Home Single Language; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 7617 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,900 +11,206 @@ C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity Projects/Raion_Internship_Kelompok3/newrep/Raion_Internship_Kelompok3
+C:/Users/ASUS/BuatGame/Raion_Internship_Kelompok3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49971
-Successfully changed project path to: C:/Unity Projects/Raion_Internship_Kelompok3/newrep/Raion_Internship_Kelompok3
-C:/Unity Projects/Raion_Internship_Kelompok3/newrep/Raion_Internship_Kelompok3
+56356
+Successfully changed project path to: C:/Users/ASUS/BuatGame/Raion_Internship_Kelompok3
+C:/Users/ASUS/BuatGame/Raion_Internship_Kelompok3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 172.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity Projects/Raion_Internship_Kelompok3/newrep/Raion_Internship_Kelompok3/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/BuatGame/Raion_Internship_Kelompok3/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
     Vendor:   
-    VRAM:     8031 MB
+    VRAM:     2996 MB
     Driver:   27.21.14.5730
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001891 seconds.
+Registered in 0.006419 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 198.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.585 seconds
+- Completed reload, in  4.201 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001287 seconds.
+Registered in 0.005819 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 177.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
+- Completed reload, in  3.469 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.43 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2554.
-Total: 3.473000 ms (FindLiveObjects: 0.504500 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.717700 ms  DeleteObjects: 0.060100 ms)
+Total: 6.682700 ms (FindLiveObjects: 0.512500 ms CreateObjectMapping: 0.131900 ms MarkObjects: 5.834900 ms  DeleteObjects: 0.199900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Raion/bawah tanah.png
-  artifactKey: Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah.png using Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbffb27fc5425975fbf210602e6ca26') in 0.082463 seconds
-  Import took 0.085681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.148321 seconds.
-  path: Assets/Art/Raion/bawah tanah.png
-  artifactKey: Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah.png using Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc05d9615c7599a918ae627313d3ce19') in 0.010448 seconds
-  Import took 0.013854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017601 seconds.
-  path: Assets/Art/Raion/bawah tanah.png
-  artifactKey: Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah.png using Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc05d9615c7599a918ae627313d3ce19') in 0.006157 seconds
-  Import took 0.009741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.719047 seconds.
-  path: Assets/Art/Raion/bawah tanah.png
-  artifactKey: Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah.png using Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c564068d80a5357c9f82fd975d35f2e') in 0.031886 seconds
-  Import took 0.034923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019669 seconds.
-  path: Assets/Art/Raion/bawah tanah.png
-  artifactKey: Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah.png using Guid(0f992b44303154b4ea1c7e36c69d466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c564068d80a5357c9f82fd975d35f2e') in 0.030898 seconds
-  Import took 0.034221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.370229 seconds.
-  path: Assets/Art/Raion/bawah tanah_0.asset
-  artifactKey: Guid(773a270ea8cb59f418d168a20f3654c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_0.asset using Guid(773a270ea8cb59f418d168a20f3654c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b661ff875e18ede7ce9402d9e7d7dd') in 0.030301 seconds
-  Import took 0.033673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Art/Raion/bawah tanah_15.asset
-  artifactKey: Guid(1f8e521a7b2b9dd4e881096810387de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_15.asset using Guid(1f8e521a7b2b9dd4e881096810387de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0598cf2d85fa316b45ba082836a765') in 0.008643 seconds
-  Import took 0.011681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Art/Raion/bawah tanah_7.asset
-  artifactKey: Guid(b5f739990d7e813459d31859bfa0aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_7.asset using Guid(b5f739990d7e813459d31859bfa0aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc3fa7567084ae31bf33de3ea50c225') in 0.011698 seconds
-  Import took 0.014535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Art/Raion/bawah tanah_10.asset
-  artifactKey: Guid(06ebebc99a5986840a796576af5c6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_10.asset using Guid(06ebebc99a5986840a796576af5c6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d3f7b00f35e4b40e31dc10e71ac3e7') in 0.011631 seconds
-  Import took 0.015386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Art/Raion/bawah tanah_14.asset
-  artifactKey: Guid(27f126632fbeb294b9dffa38e96eec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_14.asset using Guid(27f126632fbeb294b9dffa38e96eec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558aee11caf9883cac5b4832a62a8110') in 0.010971 seconds
-  Import took 0.014798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Art/Raion/Kamar.prefab
-  artifactKey: Guid(da2e5ade70018c04ab4a97b3b2faaea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/Kamar.prefab using Guid(da2e5ade70018c04ab4a97b3b2faaea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c24036811a105f1c48ee43abfc7492') in 0.010236 seconds
-  Import took 0.013784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Art/Raion/bawah tanah_8.asset
-  artifactKey: Guid(1b95978126651aa4bb917e7f7ca1d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_8.asset using Guid(1b95978126651aa4bb917e7f7ca1d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9fa8ff32290125c0fb0dde4846925f') in 0.009338 seconds
-  Import took 0.013364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Art/Raion/bawah tanah_3.asset
-  artifactKey: Guid(9cb09a77965b5504f835a885eebe2dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_3.asset using Guid(9cb09a77965b5504f835a885eebe2dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762f8abb51be492ce43e9bc8038a3e73') in 0.012463 seconds
-  Import took 0.016084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Art/Raion/bawah tanah_13.asset
-  artifactKey: Guid(846b00bd55e89ed44964a1020feb4a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_13.asset using Guid(846b00bd55e89ed44964a1020feb4a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08789789a01f971ed7b1aec117667916') in 0.008974 seconds
-  Import took 0.012269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Art/Raion/bawah tanah_2.asset
-  artifactKey: Guid(1b36cb335e165fa4c8d250add9636075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_2.asset using Guid(1b36cb335e165fa4c8d250add9636075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f388532dbab68750380613abaf4b5ecd') in 0.010436 seconds
-  Import took 0.014330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Art/Raion/bawah tanah_9.asset
-  artifactKey: Guid(9437827d8a50f4240a9e15cf9a3445c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_9.asset using Guid(9437827d8a50f4240a9e15cf9a3445c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadbdd3b400037d55d2ff11ebc793ca5') in 0.008226 seconds
-  Import took 0.011756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Art/Raion/bawah tanah_5.asset
-  artifactKey: Guid(b0ceb5355cebfe94aa153a2566e7c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_5.asset using Guid(b0ceb5355cebfe94aa153a2566e7c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e39af7a1ae68e7737215638c0ee1d9') in 0.010246 seconds
-  Import took 0.013227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Art/Raion/bawah tanah_1.asset
-  artifactKey: Guid(bf0ca99d50afd6240b10024956a8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_1.asset using Guid(bf0ca99d50afd6240b10024956a8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dd5af8d1ab329e40327370db3ea4cf') in 0.009197 seconds
-  Import took 0.012261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Art/Raion/bawah tanah_11.asset
-  artifactKey: Guid(2a6369f1d2b4a974abdf5ff5318b9878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_11.asset using Guid(2a6369f1d2b4a974abdf5ff5318b9878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c758323fcaa74b8dea4aa728f3253e5f') in 0.009822 seconds
-  Import took 0.013435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Art/Raion/bawah tanah_4.asset
-  artifactKey: Guid(9c1717194389fd847b49e926ef1ab6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_4.asset using Guid(9c1717194389fd847b49e926ef1ab6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9217d3f91f2a3a63f5f55f4a4e3e1d') in 0.009849 seconds
-  Import took 0.013008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Art/Raion/bawah tanah_6.asset
-  artifactKey: Guid(9d963cea052b1d545ae249e243ae39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_6.asset using Guid(9d963cea052b1d545ae249e243ae39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a35959950695b351504b413d555064d') in 0.011011 seconds
-  Import took 0.015140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Art/Raion/bawah tanah_12.asset
-  artifactKey: Guid(7a988449bb2079a4dbc15c3faf53d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_12.asset using Guid(7a988449bb2079a4dbc15c3faf53d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe35e0846d3a4d1d858359b4881371c') in 0.008782 seconds
-  Import took 0.012405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011437 seconds.
-  path: Assets/Art/Raion/bawah tanah_12.asset
-  artifactKey: Guid(7a988449bb2079a4dbc15c3faf53d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/bawah tanah_12.asset using Guid(7a988449bb2079a4dbc15c3faf53d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe35e0846d3a4d1d858359b4881371c') in 0.004742 seconds
-  Import took 0.008415 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001356 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.7 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 1.628300 ms (FindLiveObjects: 0.205900 ms CreateObjectMapping: 0.087200 ms MarkObjects: 1.321400 ms  DeleteObjects: 0.012700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001226 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.7 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2572.
-Total: 1.891000 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.081300 ms MarkObjects: 1.615700 ms  DeleteObjects: 0.012100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.769 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.7 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2576.
-Total: 1.865300 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.090900 ms MarkObjects: 1.561200 ms  DeleteObjects: 0.012300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002238 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.7 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2580.
-Total: 1.880700 ms (FindLiveObjects: 0.304700 ms CreateObjectMapping: 0.095200 ms MarkObjects: 1.465900 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 231.893363 seconds.
-  path: Assets/Scenes/Credit.unity
-  artifactKey: Guid(837b11fa3a5c9a2448cf2e9b86c03466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Credit.unity using Guid(837b11fa3a5c9a2448cf2e9b86c03466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e8560d972d520792446fbe715197e7') in 0.019224 seconds
-  Import took 0.022235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.956927 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d074dbe500d70c960b787c10b03c898') in 0.008469 seconds
-  Import took 0.013316 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001293 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 1.983500 ms (FindLiveObjects: 0.246100 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.586900 ms  DeleteObjects: 0.034000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001440 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.769 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 1.716500 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.084900 ms MarkObjects: 1.325700 ms  DeleteObjects: 0.033100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001219 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2592.
-Total: 1.949900 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.107200 ms MarkObjects: 1.614700 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 309.555135 seconds.
   path: Assets/Scenes/Level3.unity
   artifactKey: Guid(38e7a6986a1a13a4e9ef94382f9ea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(38e7a6986a1a13a4e9ef94382f9ea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396f96259b5bf4f3e5e5f0d35a721ec3') in 0.017532 seconds
-  Import took 0.020655 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001317 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.737 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2596.
-Total: 1.885400 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.595900 ms  DeleteObjects: 0.011100 ms)
+Start importing Assets/Scenes/Level3.unity using Guid(38e7a6986a1a13a4e9ef94382f9ea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9db56062859124f4d4f898d5a0f310b') in 0.092625 seconds
+  Import took 0.115176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.416711 seconds.
+  Time since last request: 0.000731 seconds.
+  path: Assets/Art/Raion/Character/TULISAN_0.asset
+  artifactKey: Guid(130196b54dc9a0946b562c44e911db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Raion/Character/TULISAN_0.asset using Guid(130196b54dc9a0946b562c44e911db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0802f423b24f08285fcb7b086015d8') in 0.461033 seconds
+  Import took 0.470673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.346026 seconds.
   path: Assets/Scenes/Level4.unity
   artifactKey: Guid(a4ac33f207fc84346863c29b6c351fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level4.unity using Guid(a4ac33f207fc84346863c29b6c351fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2ddd40fcffed6b41d96c4d74f07a56') in 0.014483 seconds
-  Import took 0.017381 seconds .
+Start importing Assets/Scenes/Level4.unity using Guid(a4ac33f207fc84346863c29b6c351fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e875f2e6f7729e5abf674215249eaf6') in 0.034375 seconds
+  Import took 0.096060 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002318 seconds.
+Registered in 0.005359 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
+- Completed reload, in  2.983 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.8 MB.
+System memory in use before: 97.9 MB.
+System memory in use after: 98.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2600.
-Total: 1.829400 ms (FindLiveObjects: 0.171800 ms CreateObjectMapping: 0.071100 ms MarkObjects: 1.573300 ms  DeleteObjects: 0.012300 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 7.041600 ms (FindLiveObjects: 0.629000 ms CreateObjectMapping: 0.182900 ms MarkObjects: 6.162500 ms  DeleteObjects: 0.062600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005076 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 9.180400 ms (FindLiveObjects: 0.895200 ms CreateObjectMapping: 0.366600 ms MarkObjects: 7.854100 ms  DeleteObjects: 0.044700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 299.859524 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah.png
-  artifactKey: Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah.png using Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1494e63bd422ccd347ffc4ff1aa12bb') in 0.047505 seconds
-  Import took 0.051079 seconds .
+  Time since last request: 261.126129 seconds.
+  path: Assets/Animations/Shadow Animation/Shadow.controller
+  artifactKey: Guid(5ad26f565ad0a4943bc50e0073de3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shadow Animation/Shadow.controller using Guid(5ad26f565ad0a4943bc50e0073de3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef239d0580297c6afd3a1045c090d142') in 0.091553 seconds
+  Import took 0.119120 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.842527 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah.png
-  artifactKey: Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah.png using Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17029c9ed4c57882fc941add9b627fa') in 0.007541 seconds
-  Import took 0.010872 seconds .
+  Time since last request: 6.002534 seconds.
+  path: Assets/Animations/Shadow Animation/Shadow.anim
+  artifactKey: Guid(112fd118c8d685445bd1f5987b4ddba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shadow Animation/Shadow.anim using Guid(112fd118c8d685445bd1f5987b4ddba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8353207dc29955273ec931e9ce017e2d') in 0.016479 seconds
+  Import took 0.025198 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009288 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah.png
-  artifactKey: Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah.png using Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17029c9ed4c57882fc941add9b627fa') in 0.007285 seconds
-  Import took 0.010953 seconds .
+  Time since last request: 0.139737 seconds.
+  path: Assets/Animations/Shadow Animation/Shadow.anim
+  artifactKey: Guid(112fd118c8d685445bd1f5987b4ddba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shadow Animation/Shadow.anim using Guid(112fd118c8d685445bd1f5987b4ddba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8353207dc29955273ec931e9ce017e2d') in 0.012149 seconds
+  Import took 0.022620 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.945266 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah.png
-  artifactKey: Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah.png using Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddfa920cb5cfe6ec59724c38a157c38') in 0.025949 seconds
-  Import took 0.029751 seconds .
+  Time since last request: 7.091180 seconds.
+  path: Assets/Animations/Shadow Animation
+  artifactKey: Guid(8f824764b272846488e6e0b0819f231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shadow Animation using Guid(8f824764b272846488e6e0b0819f231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425c13aff10597d34cf56f1001769882') in 0.026754 seconds
+  Import took 0.036410 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005107 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah.png
-  artifactKey: Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah.png using Guid(304a7bb499fcb5a47a09a3acf68a66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddfa920cb5cfe6ec59724c38a157c38') in 0.017029 seconds
-  Import took 0.020104 seconds .
+  Time since last request: 0.007537 seconds.
+  path: Assets/Animations/Shadow Animation
+  artifactKey: Guid(8f824764b272846488e6e0b0819f231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Shadow Animation using Guid(8f824764b272846488e6e0b0819f231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425c13aff10597d34cf56f1001769882') in 0.013303 seconds
+  Import took 0.022900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.457970 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_0.asset
-  artifactKey: Guid(582372ba8e9553b4b988deefa6693139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_0.asset using Guid(582372ba8e9553b4b988deefa6693139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb8cfd63c6c822d770efdca6db965c3') in 0.017826 seconds
-  Import took 0.020885 seconds .
+  Time since last request: 391.287686 seconds.
+  path: Assets/Art/Raion/Character/TULISAN.png
+  artifactKey: Guid(8d8ecceb5e3574f4290957f16c71d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Raion/Character/TULISAN.png using Guid(8d8ecceb5e3574f4290957f16c71d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5058d6ad617f419b116380d3eeb99be3') in 0.802377 seconds
+  Import took 0.814405 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_1.asset
-  artifactKey: Guid(fbc2491cf6a29e643be5c0aa9d84ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_1.asset using Guid(fbc2491cf6a29e643be5c0aa9d84ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8ca30a87a682a01c38bf550d041607') in 0.009403 seconds
-  Import took 0.012343 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_7.asset
-  artifactKey: Guid(74cd8766cddbc7c47a4a3459b9cd0aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_7.asset using Guid(74cd8766cddbc7c47a4a3459b9cd0aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaddf31a79a9c3dedc68c26a37337cf4') in 0.010270 seconds
-  Import took 0.012962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_4.asset
-  artifactKey: Guid(dfdca44e5766bba4590ac79ec66794f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_4.asset using Guid(dfdca44e5766bba4590ac79ec66794f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d2be2cffaff209d43bd2c25d89d932') in 0.008080 seconds
-  Import took 0.010887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_9.asset
-  artifactKey: Guid(3f24f0d98a3e5d04287c5d7a5ee1d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_9.asset using Guid(3f24f0d98a3e5d04287c5d7a5ee1d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9587d4e7c9dccf7fdf81c6b0cf29f929') in 0.013636 seconds
-  Import took 0.017732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_11.asset
-  artifactKey: Guid(8bd29dc4edc9e8344b23278835e80cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_11.asset using Guid(8bd29dc4edc9e8344b23278835e80cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823b201ab2533c3d79c9479186593e90') in 0.008176 seconds
-  Import took 0.011522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_5.asset
-  artifactKey: Guid(d15ae66c953fd4142be5b32582744c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_5.asset using Guid(d15ae66c953fd4142be5b32582744c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acb415bda68f257a726fdd63039c21a') in 0.010503 seconds
-  Import took 0.013797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_10.asset
-  artifactKey: Guid(0b5113d8e6661aa4c8925f8fe5b3353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_10.asset using Guid(0b5113d8e6661aa4c8925f8fe5b3353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c689ee60e594016039fd95326f0e5905') in 0.009511 seconds
-  Import took 0.013410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_8.asset
-  artifactKey: Guid(86b06b845237e7d4f90b113a3be46db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_8.asset using Guid(86b06b845237e7d4f90b113a3be46db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580aa29990ed56f7173661efc30fca06') in 0.009800 seconds
-  Import took 0.013674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_12.asset
-  artifactKey: Guid(aec4884aba665964a8b36f7a05fa6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_12.asset using Guid(aec4884aba665964a8b36f7a05fa6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9bdfb78bcf314fcf4bdeb7898e3a16') in 0.009997 seconds
-  Import took 0.013532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_3.asset
-  artifactKey: Guid(94c6a2da05a6c59469bd62fdd45e7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_3.asset using Guid(94c6a2da05a6c59469bd62fdd45e7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52772f34ffe48cc4f00b573f09b4457a') in 0.009501 seconds
-  Import took 0.013174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_2.asset
-  artifactKey: Guid(2993b892c1da25749882db7c7c38463c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_2.asset using Guid(2993b892c1da25749882db7c7c38463c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6567707e45a74c179144f5484a263015') in 0.008675 seconds
-  Import took 0.012212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah_6.asset
-  artifactKey: Guid(2350de4d8908f874b8df0b12edb52a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah_6.asset using Guid(2350de4d8908f874b8df0b12edb52a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812e5989b5c4239bb67686e6108c8d3e') in 0.011422 seconds
-  Import took 0.015717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 459.844241 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah.png
-  artifactKey: Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah.png using Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9735bceef912e24e089b29d74c5f02') in 0.014075 seconds
-  Import took 0.017957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.290042 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah.png
-  artifactKey: Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah.png using Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be3366c3d52b9cb9f39fae6f8ecd7e') in 0.007336 seconds
-  Import took 0.010644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008087 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah.png
-  artifactKey: Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah.png using Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be3366c3d52b9cb9f39fae6f8ecd7e') in 0.005984 seconds
-  Import took 0.008996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.896641 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah.png
-  artifactKey: Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah.png using Guid(9cbab48f4a58d0b46b32f5ffb29db9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a19ee5a8be3b5886ed49b81e2c012') in 0.025305 seconds
-  Import took 0.028518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.572727 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_0.asset
-  artifactKey: Guid(1e9fa9facda0ec74f9875d788a6fc2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_0.asset using Guid(1e9fa9facda0ec74f9875d788a6fc2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c1b8ee468dbbf0f7198358c37b3dac') in 0.010036 seconds
-  Import took 0.013143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_3.asset
-  artifactKey: Guid(9f6eeeb3058f4cb4aaf3c1bd00561334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_3.asset using Guid(9f6eeeb3058f4cb4aaf3c1bd00561334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c391c151afe60d1ebdd021fc926a27') in 0.010142 seconds
-  Import took 0.013014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_6.asset
-  artifactKey: Guid(2f21ec7592463fb4999e4b4ef7181934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_6.asset using Guid(2f21ec7592463fb4999e4b4ef7181934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65c555f055529d5c0dc594fe77e573a') in 0.008512 seconds
-  Import took 0.011801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_5.asset
-  artifactKey: Guid(88f483a9bf4107c4d8954fd5299a5358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_5.asset using Guid(88f483a9bf4107c4d8954fd5299a5358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8e5ba129dbdeddb4fbdbde72d6eb6f') in 0.009458 seconds
-  Import took 0.013288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_9.asset
-  artifactKey: Guid(e03dd511710a57e43aa22759f430406d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_9.asset using Guid(e03dd511710a57e43aa22759f430406d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532b367844acdd9d85bf420d6c7d6e86') in 0.010083 seconds
-  Import took 0.013917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_2.asset
-  artifactKey: Guid(9ddc099262a90084499d3bf2fd229ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_2.asset using Guid(9ddc099262a90084499d3bf2fd229ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fae5385f205056d1d86fdf58cee291') in 0.010996 seconds
-  Import took 0.014765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_8.asset
-  artifactKey: Guid(9f508decccdb01a4088bcb8ebcc2dcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_8.asset using Guid(9f508decccdb01a4088bcb8ebcc2dcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06b99cfaa47e1570af97ca92699ae98') in 0.009784 seconds
-  Import took 0.013525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_1.asset
-  artifactKey: Guid(655f053b190006a40bd7ccb10803c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_1.asset using Guid(655f053b190006a40bd7ccb10803c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d2864bb9122e43655b37a3c69115c9') in 0.008519 seconds
-  Import took 0.012867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_4.asset
-  artifactKey: Guid(e371e7eda4e1c1c40a933a85e1a272c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_4.asset using Guid(e371e7eda4e1c1c40a933a85e1a272c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f320752bc778306a8032bad11592d0') in 0.008576 seconds
-  Import took 0.011874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Art/Raion/background/backgorung bawah tanah_7.asset
-  artifactKey: Guid(f7d2795bf5a48324d803b7804ed913cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/backgorung bawah tanah_7.asset using Guid(f7d2795bf5a48324d803b7804ed913cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0827216036a9f9929d46abd3a3c17b') in 0.011761 seconds
-  Import took 0.015001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 279.676334 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1.png
-  artifactKey: Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1.png using Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2320142c7207c222d5697d543be51f') in 0.011566 seconds
-  Import took 0.015278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.707258 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1.png
-  artifactKey: Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1.png using Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fde2410ab90075c458aa45f6b7e2ebd') in 0.008879 seconds
-  Import took 0.012214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014930 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1.png
-  artifactKey: Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1.png using Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fde2410ab90075c458aa45f6b7e2ebd') in 0.004775 seconds
-  Import took 0.007853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.207629 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1.png
-  artifactKey: Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1.png using Guid(750fd7132ab3ed540ba0b817cee9b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792c262f8f227fbfa622fc3bdbc98fd') in 0.030014 seconds
-  Import took 0.033911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.512552 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_0.asset
-  artifactKey: Guid(2d87cfdfadb179c46a9c84b8e6fb5500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_0.asset using Guid(2d87cfdfadb179c46a9c84b8e6fb5500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9991805485d0fad8cb73d3ed8459f27f') in 0.011425 seconds
-  Import took 0.014752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_6.asset
-  artifactKey: Guid(2170cde31f486194e909e2e1fd4f2b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_6.asset using Guid(2170cde31f486194e909e2e1fd4f2b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae071e26791de2da2642d9c047393c2') in 0.007801 seconds
-  Import took 0.011208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_1.asset
-  artifactKey: Guid(86c4b2fde47550d43ae8b231151b203c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_1.asset using Guid(86c4b2fde47550d43ae8b231151b203c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badc1f47a317a2ec0f6b9c85d8dd400a') in 0.008173 seconds
-  Import took 0.011647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_10.asset
-  artifactKey: Guid(902f024fbfade5d47bcb8e9a62d3e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_10.asset using Guid(902f024fbfade5d47bcb8e9a62d3e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46b1f80340357ff726a4d08986f9172') in 0.010114 seconds
-  Import took 0.013716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_2.asset
-  artifactKey: Guid(db4c194605c7e5a4f9429cbb6c608f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_2.asset using Guid(db4c194605c7e5a4f9429cbb6c608f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af4c70d229065a9185cb4a27b59d03') in 0.011930 seconds
-  Import took 0.016089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_3.asset
-  artifactKey: Guid(dddae9c5ce7573e4e996f681ddffa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_3.asset using Guid(dddae9c5ce7573e4e996f681ddffa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66956147ff68cb806225ba3534b919b9') in 0.009839 seconds
-  Import took 0.014164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_5.asset
-  artifactKey: Guid(13aa3da4cef0a784b9beba914d94b1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_5.asset using Guid(13aa3da4cef0a784b9beba914d94b1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5e880c6bff61f43ba0c39c71f62ad1') in 0.012438 seconds
-  Import took 0.016008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_4.asset
-  artifactKey: Guid(109016d436839d54e99e40d5ac6f384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_4.asset using Guid(109016d436839d54e99e40d5ac6f384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd11411a318cd82c317a9eea918711f2') in 0.009792 seconds
-  Import took 0.013203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_11.asset
-  artifactKey: Guid(b44bdab2c5e36aa47b2176d5d826e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_11.asset using Guid(b44bdab2c5e36aa47b2176d5d826e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5780323217499678b4300c089be5684') in 0.012339 seconds
-  Import took 0.016122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_9.asset
-  artifactKey: Guid(7d1a777efa870064db76247bf2c10d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_9.asset using Guid(7d1a777efa870064db76247bf2c10d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481b809388403797e3d839f7d6fd38d2') in 0.009093 seconds
-  Import took 0.012531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_8.asset
-  artifactKey: Guid(2170040cec662ac4daa550108c43c72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_8.asset using Guid(2170040cec662ac4daa550108c43c72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a290c6c25e1f8c51e86407aada4029') in 0.011050 seconds
-  Import took 0.014887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_7.asset
-  artifactKey: Guid(e12361e03edaa684cb1f5e89f389f265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_7.asset using Guid(e12361e03edaa684cb1f5e89f389f265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa314d5ec37e8affa2fc98c5e324f7c5') in 0.009772 seconds
-  Import took 0.013985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_12.asset
-  artifactKey: Guid(642f730cb9394b141897c81e2737651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_12.asset using Guid(642f730cb9394b141897c81e2737651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f09bdfedd3b23cda2fa7b97b8bce434') in 0.008813 seconds
-  Import took 0.012368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015384 seconds.
-  path: Assets/Art/Raion/background/tanah bawah tanah 1_12.asset
-  artifactKey: Guid(642f730cb9394b141897c81e2737651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Raion/background/tanah bawah tanah 1_12.asset using Guid(642f730cb9394b141897c81e2737651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f09bdfedd3b23cda2fa7b97b8bce434') in 0.005128 seconds
-  Import took 0.008308 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 8.391500 ms (FindLiveObjects: 1.276700 ms CreateObjectMapping: 0.500400 ms MarkObjects: 6.550900 ms  DeleteObjects: 0.058100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

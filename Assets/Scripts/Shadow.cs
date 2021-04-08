@@ -5,29 +5,33 @@ using UnityEngine;
 public class Shadow : MonoBehaviour
 {
 
-    [SerializeField] private Transform target;
-    [SerializeField] private float speed;
+    public Transform groundCheck;
+    public LayerMask whatIsGround;
+    public float checkRadius;
+    private bool isGrounded;
 
-    private Rigidbody2D rb;
-    private int current;
+    private Animator animator;
+
+    private PlayerMovement player;
+
+    void OnTrigger2D(Collider2D other)
+    {
+        if(other.CompareTag("Player")) {
+            player.Damage();            
+        }
+    }
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        animator = GameObject.FindGameObjectWithTag("Shadow").GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
-        Vector2 pos = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        pos.y = -0.69f;
-        rb.MovePosition(pos);
-        //if (transform.position != target.position)
-        //{
-        //    Vector2 pos = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        //    rb.MovePosition(pos);
-        //} else
-        //{
-            
-        //}
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        if(isGrounded)
+        {
+            animator.SetTrigger("run");
+        }
     }
 }
