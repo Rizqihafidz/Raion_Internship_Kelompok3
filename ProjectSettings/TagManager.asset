@@ -8,6 +8,7 @@ TagManager:
   - Turn
   - Enemy
   - Shadow
+  - Trap
   layers:
   - Default
   - TransparentFX

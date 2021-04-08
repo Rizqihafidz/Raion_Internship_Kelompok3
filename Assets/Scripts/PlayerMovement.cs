@@ -93,4 +93,14 @@ public class PlayerMovement : MonoBehaviour
 
         _uiManager.UpdateLives(_lives);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Trap"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+
+    }
 }
