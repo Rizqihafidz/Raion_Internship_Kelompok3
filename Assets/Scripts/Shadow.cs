@@ -1,37 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class Shadow : MonoBehaviour
 {
-
-    public Transform groundCheck;
-    public LayerMask whatIsGround;
-    public float checkRadius;
-    private bool isGrounded;
-
-    private Animator animator;
-
     private PlayerMovement player;
 
-    void OnTrigger2D(Collider2D other)
+    public AIPath aiPath;
+
+    void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.CompareTag("Player")) {
+        if(other.gameObject.CompareTag("Player")) {
             player.Damage();            
         }
     }
 
-    void Start()
+    void Update()
     {
-        animator = GameObject.FindGameObjectWithTag("Shadow").GetComponent<Animator>();
-    }
-
-    void FixedUpdate()
-    {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
-        if(isGrounded)
+        if(aiPath.desiredVelocity.x >= 0.01f)
         {
-            animator.SetTrigger("run");
+            transform.localScale = new Vector3(1, 1, 1);
+        } else if(aiPath.desiredVelocity.x <= -0.01)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
         }
     }
 }
