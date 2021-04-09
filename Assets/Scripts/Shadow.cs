@@ -5,13 +5,13 @@ using Pathfinding;
 
 public class Shadow : MonoBehaviour
 {
-    private PlayerMovement player;
+    [SerializeField] private PlayerMovement player;
 
     public AIPath aiPath;
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Player")) {
+        if(other.CompareTag("Player")) {
             player.Damage();            
         }
     }
