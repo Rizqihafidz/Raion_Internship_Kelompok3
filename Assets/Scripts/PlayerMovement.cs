@@ -14,10 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float distance;
     [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private bool isClimbing;
-    [SerializeField] private GameMaster gm;
 
     float horizontalMove = 0f;
-    float verticalMove = 0f;
     bool jump = false;
 
     [SerializeField] int _lives = 3;
@@ -27,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         _uiManager = GameObject.Find("Canvas2").GetComponent<UIManagerUwU>();
-        gm = GetComponent<GameMaster>();
     }
 
     // Update is called once per frame
@@ -98,7 +95,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameObject.Destroy(gameObject);
         }
 
 
