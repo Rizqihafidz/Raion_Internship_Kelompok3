@@ -29,6 +29,18 @@ public class GameMaster : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void MenuPlay()
+    {
+        SceneManager.LoadScene(2);
+        animator.SetTrigger("FadeOut");
+    }
+
+    public void MenuQuit()
+    {
+        Application.Quit();
+        animator.SetTrigger("FadeOut");
+    }
+
     public void Play()
     {
         SceneManager.LoadScene(2);
